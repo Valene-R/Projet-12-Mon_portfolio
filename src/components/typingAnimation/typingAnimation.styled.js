@@ -24,4 +24,8 @@ export const TypingText = styled.span`
   border-right: 1px solid #fff;  
   width: calc(${(props) => props.width}ch - 0.5ch);  
   animation: ${typeAnimation} ${(props) => props.$animationDuration}s steps(${(props) => props.width}, end);
+
+  @media all and (max-width: 524px) {
+    font-size: 18px;
+  }
 `;

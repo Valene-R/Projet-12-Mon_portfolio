@@ -3,6 +3,7 @@ import backgroundHome from '../../assets/backgroundHome.jpg';
 import chevronIcon from '../../assets/chevronIcon.svg';
 
 export const Root = styled.div`
+	width: 100%;
 	flex: 3;
 	display: flex;
 	flex-direction: column;
@@ -15,6 +16,10 @@ export const Root = styled.div`
 	width: calc(100% - 250px); /* déduit la largeur de la sidebar */
 	position: relative;
 	margin-left: 250px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
+
+	@media all and (max-width: 1000px) {
+		margin: 0;
+  }
 `;
 
 export const Welcome = styled.div`

@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Source Code Pro', monospace; 
 		width: 100%;
 		height: 100%;
+    margin: 0;
   }
 `;
 

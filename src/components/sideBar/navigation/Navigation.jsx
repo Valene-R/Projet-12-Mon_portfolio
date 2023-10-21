@@ -1,13 +1,20 @@
-import React from 'react';
-import { Root } from './navigation.styled';
+import React, { useState } from 'react';
+import { Root, Burger } from './navigation.styled';
 import NavItem from './navItem/NavItem';
 
 const Navigation = () => {
-	return (
-    <Root>
-      <NavItem />
-    </Root>
-	);
+  const [isOpen, setIsOpen] = useState(false); 
+
+  return (
+    <>
+      <Burger onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? '✖' : '☰'}
+      </Burger>
+      <Root $isOpen={isOpen}>
+        <NavItem />
+      </Root>
+    </>
+  );
 };
 
 export default Navigation;
