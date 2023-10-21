@@ -7,6 +7,6 @@ export const Item = styled(NavLink)`
   text-decoration: none;
   color: #FFF;
   &:hover {
-    color: #C3592A;
+    color: #FA834E;
   }
 `;

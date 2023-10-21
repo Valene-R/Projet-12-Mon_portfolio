@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 import backgroundHome from '../../assets/backgroundHome.jpg';
 import chevronIcon from '../../assets/chevronIcon.svg';
 
@@ -23,40 +23,6 @@ export const Welcome = styled.div`
 	align-items: center;
 `;
 
-export const Button = styled.button`
-	padding: 10px 20px;
-	border: none;
-	background-color: #C3592A;
-	color: #000000;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-top: 50px;
-`;
-
-export const ButtonWrapper = styled.div`
-  position: relative;
-  padding: 10px 20px;
-  border: none;
-  background-color: #C3592A;
-  color: #000000;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 50px;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: 3px solid #ffdb00;
-    animation: borderRun 8s linear infinite;
-  }
-`;
-
-
-
 export const AnimatedChevron = styled.div`
 	position: absolute;
 	bottom: 10px;
@@ -80,4 +46,92 @@ export const Icon = styled.img.attrs({
 	alt: "Chevron pointant vers le bas"
 })`
 	cursor: pointer;
+`;
+
+/* Animations Button */
+const glowing = keyframes`
+	0% { background-position: 0 0; }
+	50% { background-position: 400% 0; }
+	100% { background-position: 0 0; }
+`;
+
+const shake = keyframes`
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+`;
+
+export const Button = styled.button`
+font-size: 14px;
+  width: 220px;
+  height: 50px;
+	margin-top: 20px;
+  border: none;
+  outline: none;
+  color: #FA834E;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+	animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite 1s;
+
+  &:hover:before {
+    opacity: 1;
+  }
+
+  &:active {
+    color: #000;
+		background-color: #FA834E;
+  }
+
+  &:active:after {
+    background: transparent;
+  }
+
+  &::before {
+    content: '';
+    // background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+		background: linear-gradient(45deg, #ff4500, #dc143c, #ff8c00, #b22222);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: ${glowing} 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  &::after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
 `;
