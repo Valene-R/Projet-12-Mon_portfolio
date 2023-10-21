@@ -20,6 +20,21 @@ export const ProfileImage = styled.img`
   height: 150px;
   border-radius: 50%;
   margin: 20px;
+  border: 4px solid grey;
 `;
 
+export const MediaIcons = styled.div`
+  display: flex;
+  gap: 15px; // espace entre les icônes
+  margin-top: 200px;
+
+  svg {
+    font-size: 20px; 
+    cursor: pointer; 
+
+    &:hover {
+      font-size: 30px;
+    }
+  }
+`;
 

@@ -1,6 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/home/Home';
+// import About from '../pages/about/About';
+// import Portfolio from '../pages/portfolio/Portfolio';
+// import Skills from '../pages/skills/Skills';
+// import Experiences from '../pages/experiences/Experiences';
+// import Contact from '../pages/contact/Contact';
 import { ROUTES } from '../router/routes';
 
 const Router = () => {

@@ -6,4 +6,7 @@ export const Item = styled(NavLink)`
   cursor: pointer;
   text-decoration: none;
   color: #FFF;
+  &:hover {
+    color: #C3592A;
+  }
 `;

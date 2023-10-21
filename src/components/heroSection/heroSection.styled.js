@@ -33,6 +33,30 @@ export const Button = styled.button`
 	margin-top: 50px;
 `;
 
+export const ButtonWrapper = styled.div`
+  position: relative;
+  padding: 10px 20px;
+  border: none;
+  background-color: #C3592A;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 3px solid #ffdb00;
+    animation: borderRun 8s linear infinite;
+  }
+`;
+
+
+
 export const AnimatedChevron = styled.div`
 	position: absolute;
 	bottom: 10px;
