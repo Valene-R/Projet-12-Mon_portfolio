@@ -5,4 +5,5 @@ export const Root = styled.div`
   background-color: #000;
   height: 100vh;
   color: white;
+  width: 100%;
 `;

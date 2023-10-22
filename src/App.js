@@ -1,7 +1,7 @@
-import Router from './router/Router';
 import  GlobalStyle  from './styles/globalStyle';
 import React, { useState, useEffect } from 'react';
 import Loader from './components/loader/Loader';
+import Home from './pages/home/Home';
 
 
 const App = () => {
@@ -19,8 +19,8 @@ const App = () => {
 
   return (
     <div>
-      <Router />
       <GlobalStyle />
+      <Home />
     </div>
   );
 };

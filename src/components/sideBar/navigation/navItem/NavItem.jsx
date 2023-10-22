@@ -1,16 +1,16 @@
 import React from 'react';
 import { Item } from './navItem.styled';
-import { ROUTES } from '../../../../router/routes';
+
 
 const NavItem = () => {
 	return (
     <>
-      <Item to={ROUTES.HOME}>Accueil</Item>
-      <Item to={ROUTES.A_PROPOS}>A propos de moi</Item>
-      <Item to={ROUTES.PORTFOLIO}>Portfolio</Item>
-      <Item to={ROUTES.COMPETENCES}>Compétences</Item>
-      <Item to={ROUTES.EXPERIENCES}>Expériences</Item>
-      <Item to={ROUTES.CONTACT}>Contact</Item>
+      <Item smooth to="/#home">Accueil</Item>
+      <Item smooth to="/#about">A propos de moi</Item>
+      <Item smooth to="/#portfolio">Portfolio</Item>
+      <Item smooth to="/#skills">Compétences</Item>
+      <Item smooth to="/#experiences">Expériences</Item>
+      <Item smooth to="/#contact">Contact</Item>
     </>
 	);
 };

@@ -4,6 +4,7 @@ import styled, { keyframes } from 'styled-components';
 export const Root = styled.div`
   width: calc(${props => props.maxLength}ch); 
   min-height: 40px;
+  color: #FFF;
 `;
 
 // Animation de frappe

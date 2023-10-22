@@ -13,6 +13,7 @@ export const Root = styled.div`
   flex-direction: column;
   align-items: center;
   z-index: 9999;
+  color: #FFF;
 
   @media all and (max-width: 1000px) {
     width: 100%;

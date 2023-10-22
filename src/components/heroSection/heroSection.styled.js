@@ -13,12 +13,14 @@ export const Root = styled.div`
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	width: calc(100% - 250px); /* déduit la largeur de la sidebar */
+	width: calc(100% - 150px); /* déduit la largeur de la sidebar */
 	position: relative;
-	margin-left: 250px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
+	margin-left: 230px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
+	color: #FFF;
 
 	@media all and (max-width: 1000px) {
 		margin: 0;
+		width: 100%;
   }
 `;
 
@@ -83,11 +85,11 @@ const shake = keyframes`
 `;
 
 export const Button = styled.button`
-font-size: 14px;
+	font-size: 14px;
   width: 220px;
   height: 50px;
 	margin-top: 20px;
-  border: none;
+  border: none;	
   outline: none;
   color: #FA834E;
   background: #111;

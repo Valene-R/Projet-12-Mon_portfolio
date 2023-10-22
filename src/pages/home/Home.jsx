@@ -1,15 +1,19 @@
 import React from 'react';
-import { Root } from './home.styled';
-import Sidebar from '../../components/sideBar/SideBar';
+import SideBar from '../../components/sideBar/SideBar';
 import HeroSection from '../../components/heroSection/HeroSection';
+import About from '../../sections/about/About';
+// import Portfolio from '../../sections/portfolio/Portfolio';
 
 
 const Home = () => {
   return (
-    <Root>
-      <Sidebar/>
-      <HeroSection />
-    </Root>
+    <div>
+      <SideBar/>
+      <HeroSection id="home" />
+      <About id="about"/>
+      {/* <Portfolio /> */}
+      
+    </div>
   );
 };
 

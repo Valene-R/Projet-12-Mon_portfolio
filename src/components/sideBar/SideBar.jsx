@@ -12,8 +12,12 @@ const SideBar = () => {
       <h2>Valène Renaud</h2>
       <Navigation />
       <MediaIcons>
-        <IconLinkedin />
-        <IconGithub />
+        <a href="https://www.linkedin.com/in/valène-renaud-391ab9293" target="_blank" rel="noopener noreferrer">
+          <IconLinkedin alt="Logo Linkedin"/>
+        </a>
+        <a href="https://github.com/Valene-R" target="_blank" rel="noopener noreferrer">
+          <IconGithub alt="Logo Github"/>
+        </a>
       </MediaIcons>
 		</Root>
 	);

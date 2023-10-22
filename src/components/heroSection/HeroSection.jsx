@@ -5,7 +5,7 @@ import TypingAnimation from '../typingAnimation/TypingAnimation';
 
 const HeroSection = () => {
 	return (
-		<Root>
+		<Root id="home">
 			<Welcome>
         <h1>Bienvenue</h1>
         <TypingAnimation />
@@ -13,7 +13,9 @@ const HeroSection = () => {
         <Button>Travaillons ensemble</Button>
       </Welcome>
       <AnimatedChevron>
-        <Icon />
+        <div id="aboutIcon">
+          <Icon onClick={() => document.getElementById('aboutIcon').scrollIntoView({ behavior: 'smooth' })} />
+        </div>
       </AnimatedChevron>
 		</Root>
 	);
