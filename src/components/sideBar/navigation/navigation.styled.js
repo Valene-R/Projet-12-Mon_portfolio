@@ -41,14 +41,57 @@ export const Root = styled.div`
 
 export const Burger = styled.div`
   display: none;
-  cursor: pointer;
-  font-size: 24px;
+
+  #menu__toggle {
+    position: absolute;
+    left: -9999px;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 16px; 
+    right: 20px; 
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 50px;
+
+    span, & > span::before, & > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #FFF;
+      transition-duration: .25s;
+    }
+    & > span::before {
+      content: '';
+      top: -8px;
+    }
+    & > span::after {
+      content: '';
+      top: 8px;
+    }
+
+    ${props => props.$isOpen && `
+      span {
+        transform: rotate(45deg);
+      }
+      & > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      & > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+    `}
+  }
 
   @media all and (max-width: 1000px) {
-    display: flex;
-    position: absolute; 
-    top: 12px; 
-    right: 20px; 
-		margin-right: 50px;
+    display: block;
   }
 `;

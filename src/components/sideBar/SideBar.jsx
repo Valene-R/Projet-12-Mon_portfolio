@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as IconGithub } from '../../assets/iconGithub.svg';
+import { ReactComponent as IconGithub } from '../../assets/iconGithubfff.svg';
 import { ReactComponent as IconLinkedin } from '../../assets/iconLinkedin.svg';
 import { Root, ProfileImage, MediaIcons } from './sideBar.styled';
 import portrait from '../../assets/portrait.png';

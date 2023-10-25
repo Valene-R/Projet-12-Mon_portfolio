@@ -2,7 +2,7 @@ import React from 'react';
 import SideBar from '../../components/sideBar/SideBar';
 import HeroSection from '../../components/heroSection/HeroSection';
 import About from '../../sections/about/About';
-// import Portfolio from '../../sections/portfolio/Portfolio';
+import Portfolio from '../../sections/portfolio/Portfolio';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <SideBar/>
       <HeroSection id="home" />
       <About id="about"/>
-      {/* <Portfolio /> */}
+      <Portfolio id="portfolio"/>
       
     </div>
   );

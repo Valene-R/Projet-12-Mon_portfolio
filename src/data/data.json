@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "description": "Créer la page d'accueil d'une agence de voyage avec HTML et CSS",
+      "imageUrl": "assets/images/booki.png",
+      "githubLink": "https://github.com/Valene-R/Projet-3-Booki.git",
+      "liveDemoLink": "https://valene-r.github.io/Projet-3-Booki/",
+      "technologies": ["HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "title": "Ohmyfood",
+      "description": "Améliorer l'interface d'un site mobile avec des animations CSS",
+      "imageUrl": "assets/images/ohmyfood.png",
+      "githubLink": "https://github.com/Valene-R/Projet-4-Ohmyfood.git",
+      "liveDemoLink": "https://valene-r.github.io/Projet-4-Ohmyfood/",
+      "technologies": ["HTML", "SCSS"]
+    },
+    {
+    	"id": 3,
+      "title": "Portfolio de l'architecte Sophie Bluel",
+      "description": "Créer une page dynamique avec JavaScript",
+      "imageUrl": "assets/images/sophieBluel.png",
+      "githubLink": "https://github.com/Valene-R/Projet-6-Portfolio_architecte_Sophie_Bluel.git",
+      "technologies": ["HTML", "JavaScript", "SCSS"]
+      },
+		{
+			"id": 4,
+			"title": "Site du photographe Nina Carducci",
+			"description": "Optimiser le référencement d'un site de photographe",
+			"imageUrl": "assets/images/ninaCarducci.png",
+			"githubLink": "https://github.com/Valene-R/Projet-9-Site_photographe_Nina_Carducci.git",
+			"liveDemoLink": "https://valene-r.github.io/Projet-9-Site_photographe_Nina_Carducci/",
+			"technologies": ["HTML", "JavaScript", "SCSS", "Lighthouse", "Wave Evaluation Tool", "Rich Snippets"]
+		}
+  ]

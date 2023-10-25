@@ -1,5 +1,6 @@
 import React from 'react';
-import { Section, Title, Subtitle, Description } from './about.styled';
+import { Section, Title, Subtitle, Description, Undraw } from './about.styled';
+import illustration from '../../assets/undraw.png';
 
 
 const About = () => {
@@ -8,6 +9,7 @@ const About = () => {
       <div>
         <Title>A PROPOS</Title>
         <Subtitle>En savoir plus sur moi</Subtitle>
+        <Undraw src={illustration} alt="Illustration" />
         <Description>
         Je m'appelle Valène et je suis actuellement étudiante dans le parcours Intégrateur web. 
         Passionnée par les nouvelles technologies et le design, j'aspire à combiner créativité et technicité pour créer des expériences web fluides et esthétiques.

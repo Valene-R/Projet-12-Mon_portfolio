@@ -6,7 +6,7 @@ export const Root = styled.div`
   top: 0;
   left: 0;
   width: 250px;
-  height: 100%;
+  height: 100vh;
   background-color: #0a0a0a;
   padding: 20px;
   display: flex;
@@ -44,20 +44,22 @@ export const ProfileImage = styled.img`
 
 export const MediaIcons = styled.div`
   display: flex;
-  gap: 15px; // espace entre les icônes
-  margin-top: 200px;
-
+  padding-top: 200px;
+  padding-bottom: 50px;
+  gap: 15px;
+   
   @media all and (max-width: 1000px) {
     display: flex;
     margin-right: 100px;
     position: relative;
-    top: -100px;
+    top: -75px;
     right: 0px;
   }
 
   svg {
     font-size: 20px; 
     cursor: pointer; 
+    transition: font-size 0.3s ease; 
 
     &:hover {
       font-size: 30px;

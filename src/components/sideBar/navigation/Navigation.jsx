@@ -7,8 +7,11 @@ const Navigation = () => {
 
   return (
     <>
-      <Burger onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? '✖' : '☰'}
+      <Burger $isOpen={isOpen}>
+        <input id="menu__toggle" type="checkbox" checked={isOpen} onChange={() => setIsOpen(!isOpen)} />
+        <label className="menu__btn" htmlFor="menu__toggle">
+          <span></span>
+        </label>
       </Burger>
       <Root $isOpen={isOpen}>
         <NavItem />

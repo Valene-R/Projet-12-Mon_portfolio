@@ -13,9 +13,9 @@ export const Root = styled.div`
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	width: calc(100% - 150px); /* déduit la largeur de la sidebar */
+	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
-	margin-left: 230px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
+	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
 	color: #FFF;
 
 	@media all and (max-width: 1000px) {

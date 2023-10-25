@@ -9,9 +9,9 @@ export const Section = styled.section`
 	justify-content: center;
 	background-color: #FFFFFF;
 	height: 100vh;
-	width: calc(100% - 230px); /* déduit la largeur de la sidebar */
+	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
-	margin-left: 230px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
+	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
 	color: #000; /* Ajustez la couleur du texte selon vos préférences */
 	padding-left: 0;
 	text-align: center;
@@ -28,9 +28,10 @@ export const Title = styled.h1`
   font-size: 130px;
   margin-top: 0;
 	position: relative;
-  z-index: 1; /* Il sera derrière le sous-titre car il a un z-index inférieur */
+  z-index: 1; 
   opacity: 0.7;
 	color: #F3EDE9;
+	margin: 0;
 
 	@media all and (max-width: 1000px) {
 		font-size: 90px; 
@@ -42,7 +43,7 @@ export const Subtitle = styled.h2`
   color: #FA834E;
 	position: relative;
   z-index: 2;
-	top: -200px;
+	top: -120px;
 
 	@media all and (max-width: 1000px) {
 		font-size: 25px; 
@@ -56,4 +57,9 @@ export const Description = styled.p`
   padding-top: 0;
   font-weight: 600;
 	text-align: justify;
+`;
+
+export const Undraw = styled.img`
+	width: 400px;  
+  height: auto; 
 `;
