@@ -1,6 +1,7 @@
 import styled, {keyframes} from 'styled-components';
 import backgroundHome from '../../assets/backgroundHome.jpg';
 import chevronIcon from '../../assets/chevronIcon.svg';
+import { HashLink } from 'react-router-hash-link';
 
 export const Root = styled.div`
 	width: 100%;
@@ -84,19 +85,20 @@ const shake = keyframes`
 	}
 `;
 
-export const Button = styled.button`
+export const Button = styled(HashLink)`
 	font-size: 14px;
   width: 220px;
   height: 50px;
 	margin-top: 20px;
-  border: none;	
-  outline: none;
+  text-decoration: none;	
   color: #FA834E;
   background: #111;
   cursor: pointer;
   position: relative;
-  z-index: 0;
   border-radius: 10px;
+	display: grid;
+  place-items: center;
+	
 	animation: ${shake} 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite 1s;
 
   &:hover:before {

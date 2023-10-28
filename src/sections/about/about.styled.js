@@ -12,7 +12,7 @@ export const Section = styled.section`
 	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
 	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
-	color: #000; /* Ajustez la couleur du texte selon vos préférences */
+	color: #000; 
 	padding-left: 0;
 	text-align: center;
 	z-index: 1;
@@ -36,6 +36,14 @@ export const Title = styled.h1`
 	@media all and (max-width: 1000px) {
 		font-size: 90px; 
 	}
+
+	@media all and (max-width: 914px) {
+		font-size: 60px; 
+	}
+
+	@media all and (max-width: 758px) {
+		font-size: 40px; 
+	}
 `;
 
 export const Subtitle = styled.h2`
@@ -47,7 +55,12 @@ export const Subtitle = styled.h2`
 
 	@media all and (max-width: 1000px) {
 		font-size: 25px; 
-		top: -145px; 
+		top: -40px; 
+	}
+
+	@media all and (max-width: 914px) {
+		font-size: 18px;
+		top: -20px;
 	}
 `;
 

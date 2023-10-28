@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1>Bienvenue</h1>
         <TypingAnimation />
         <p>basée dans le Nord de la France.</p>
-        <Button>Travaillons ensemble</Button>
+        <Button smooth to="/#contact">Travaillons ensemble</Button>
       </Welcome>
       <AnimatedChevron>
         <div id="aboutIcon">

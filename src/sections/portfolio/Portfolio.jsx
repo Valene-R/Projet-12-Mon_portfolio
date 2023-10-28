@@ -37,7 +37,7 @@ const Portfolio = () => {
               </ProjectLink>
               {selectedProject.liveDemoLink && (
                 <ProjectLink href={selectedProject.liveDemoLink}>
-                  <PlayIcon src={iconPlay} alt="Voir la démo" />
+                  <PlayIcon src={iconPlay} alt="Voir le site" />
                 </ProjectLink>
               )}
             </IconContainer>
