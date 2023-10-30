@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import projectsData from '../../data/data.json';
-import { Root, Projects, Card, Modal, TechList, TechItem, CloseButton, ProjectLink, GithubIcon, PlayIcon, IconContainer } from './portfolio.styled';
+import { Root, Projects, Card, Modal, TechList, TechItem, CloseButton, 
+  ProjectLink, GithubIcon, PlayIcon, IconContainer, Description, Title, Subtitle } from './portfolio.styled';
 import iconPlay from '../../assets/iconPlay.svg';
 import iconGithub from '../../assets/iconGithub.svg';
 
@@ -17,7 +18,11 @@ const Portfolio = () => {
 
   return (
     <Root>
-      <Projects id="portfolio">
+      <Description id="portfolio">
+        <Title>Portfolio</Title>
+        <Subtitle>Traversée créative : chaque projet, une histoire unique à raconter</Subtitle>
+      </Description>
+      <Projects>
         {projectsData.map(project => (
           <Card key={project.id} onClick={() => openModal(project)}>
             <img src={project.imageUrl} alt={project.title} />
@@ -34,10 +39,12 @@ const Portfolio = () => {
 						<IconContainer>
               <ProjectLink href={selectedProject.githubLink}>
                 <GithubIcon src={iconGithub} alt="Voir sur GitHub" />
+                <p>voir le repo sur GitHub</p>
               </ProjectLink>
               {selectedProject.liveDemoLink && (
                 <ProjectLink href={selectedProject.liveDemoLink}>
                   <PlayIcon src={iconPlay} alt="Voir le site" />
+                  <p>voir le site</p>
                 </ProjectLink>
               )}
             </IconContainer>

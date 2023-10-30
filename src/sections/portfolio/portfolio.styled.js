@@ -4,6 +4,62 @@ export const Root = styled.section`
   margin: 40px 0;
 `;
 
+export const Description = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  width: calc(100% - 290px);
+  position: relative;
+  margin-left: 290px;
+  min-width: 350px;
+  max-width: 1154px;
+  margin-bottom: 35px;
+`;
+
+export const Title = styled.h2`
+  // font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 130px;
+  margin-top: 0;
+	position: relative; 
+  opacity: 0.7;
+	color: #F3EDE9;
+	margin: 0;
+
+	@media all and (max-width: 1154px) {
+		font-size: 90px; 
+	}
+
+	@media all and (max-width: 914px) {
+		font-size: 60px; 
+	}
+
+	@media all and (max-width: 758px) {
+		font-size: 40px; 
+	}
+`;
+
+export const Subtitle = styled.p`
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto 50px;
+  font-size: 25px;
+  color: #FA834E;
+  font-weight: 600;
+
+	@media all and (max-width: 1154px) {
+		font-size: 20px; 
+	}
+
+	@media all and (max-width: 914px) {
+		font-size: 18px;
+	}
+`;
+
 export const Projects = styled.div`
 	display: flex;
 	flex-wrap: wrap;
@@ -108,6 +164,12 @@ export const CloseButton = styled.span`
 export const ProjectLink = styled.a`
   text-decoration: none; 
   color: inherit; 
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  gap: 10px;
+  align-items: center;
+  width: 400px;
 
   &:hover {
     text-decoration: underline; 

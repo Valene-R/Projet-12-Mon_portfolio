@@ -4,16 +4,18 @@ import HeroSection from '../../components/heroSection/HeroSection';
 import About from '../../sections/about/About';
 import Portfolio from '../../sections/portfolio/Portfolio';
 import Contact from '../../sections/contact/Contact';
+import Skills from '../../sections/skills/Skills';
 
 
 const Home = () => {
   return (
     <div>
-      <SideBar/>
-      <HeroSection id="home" />
-      <About id="about"/>
-      <Portfolio id="portfolio" />
-      <Contact id="contact" />
+      <SideBar />
+      <HeroSection />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
     </div>
   );
 };

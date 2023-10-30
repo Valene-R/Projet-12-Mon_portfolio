@@ -15,7 +15,7 @@
       "imageUrl": "assets/images/ohmyfood.png",
       "githubLink": "https://github.com/Valene-R/Projet-4-Ohmyfood.git",
       "liveDemoLink": "https://valene-r.github.io/Projet-4-Ohmyfood/",
-      "technologies": ["HTML", "SCSS"]
+      "technologies": ["HTML", "Sass"]
     },
     {
     	"id": 3,
@@ -23,7 +23,7 @@
       "description": "Créer une page dynamique avec JavaScript",
       "imageUrl": "assets/images/sophieBluel.png",
       "githubLink": "https://github.com/Valene-R/Projet-6-Portfolio_architecte_Sophie_Bluel.git",
-      "technologies": ["HTML", "JavaScript", "SCSS"]
+      "technologies": ["HTML", "JavaScript", "Sass"]
       },
 		{
 			"id": 4,
@@ -32,6 +32,15 @@
 			"imageUrl": "assets/images/ninaCarducci.png",
 			"githubLink": "https://github.com/Valene-R/Projet-9-Site_photographe_Nina_Carducci.git",
 			"liveDemoLink": "https://valene-r.github.io/Projet-9-Site_photographe_Nina_Carducci/",
-			"technologies": ["HTML", "JavaScript", "SCSS", "Lighthouse", "Wave Evaluation Tool", "Rich Snippets"]
+			"technologies": ["HTML", "JavaScript", "Sass", "Lighthouse", "Wave Evaluation Tool", "Rich Snippets"]
+		},
+    {
+			"id": 5,
+			"title": "Kasa",
+			"description": "Créer une application web de location immobilière avec React",
+			"imageUrl": "assets/images/kasa.png",
+			"githubLink": "https://github.com/Valene-R/Projet-8-Kasa.git",
+			"liveDemoLink": "https://projet-8-kasa-idy5-valene-r.vercel.app/",
+			"technologies": ["HTML", "Saas", "React"]
 		}
   ]

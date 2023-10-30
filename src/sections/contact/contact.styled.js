@@ -104,6 +104,7 @@ export const Textarea = styled.textarea`
   height: 200px;
   resize: vertical;
   box-sizing: border-box;
+	// resize: none;
 `;
 
 export const Button = styled.button`

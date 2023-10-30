@@ -58,6 +58,7 @@ const Contact = () => {
 				<Textarea id="messageField" name="message" value={message} onChange={e => setMessage(e.target.value)} required/>
 
 				<Button type="submit">Envoyer</Button>
+				<p>* Vos données sont confidentielles et ne seront pas conservées.</p>
 			</Form>
 			{showToast && (
     		<Toast>Message envoyé avec succès !</Toast>

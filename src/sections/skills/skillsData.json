@@ -1,0 +1,43 @@
+[
+  {
+    "id": "react",
+    "icon": "ReactIcon",
+    "color": "#61DAFB",
+    "description": "React - Bibliothèque JavaScript pour construire des interfaces utilisateur"
+  },
+  {
+    "id": "redux",
+    "icon": "ReduxIcon",
+    "color": "#764ABC",
+    "description": "Redux - Bibliothèque React pour gérer l'état global de l'application"
+  },
+  {
+    "id": "saas",
+    "icon": "SaasIcon",
+    "color": "#df62c4",
+    "description": "Saas - Préprocesseur pour ajouter des fonctionnalités à CSS"
+  },
+  {
+    "id": "styled-components",
+    "icon": "assets/images/styledComponents.png",
+    "description": "Styled-Components - Bibliothèque pour le styling"
+  },
+  {
+    "id": "git",
+    "icon": "GitIcon",
+    "description": "Git - Méthodologie de travail"
+  },
+  {
+    "id": "git-flow",
+    "icon": "assets/images/gitFlow.png",
+    "description": "Git Flow - Méthodologie de travail avec Git"
+  },
+  {
+    "id": "jest",
+    "icon": "JestIcon",
+    "color": "#99425B",
+    "description": "Jest - Bibliothèque de tests pour JavaScript"
+  }
+]
+
+
