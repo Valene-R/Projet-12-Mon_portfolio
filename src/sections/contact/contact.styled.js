@@ -122,6 +122,13 @@ export const Button = styled.button`
   }
 `;
 
+export const Paragraph= styled.p`
+	font-size: 14px;
+	@media all and (max-width: 700px) {
+		font-size: 10px; 
+	}
+`;
+
 export const Toast = styled.div`
 	position: fixed; 
 	top: 50%;        

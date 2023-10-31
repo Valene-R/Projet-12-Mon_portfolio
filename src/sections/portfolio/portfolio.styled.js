@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Root = styled.section`
   margin: 40px 0;
+  width: 100%;
 `;
 
 export const Description = styled.div`
@@ -16,10 +17,13 @@ export const Description = styled.div`
   min-width: 350px;
   max-width: 1154px;
   margin-bottom: 35px;
+
+  @media all and (max-width: 1000px) {
+		margin: auto;
+	}
 `;
 
 export const Title = styled.h2`
-  // font-size: 30px;
   display: flex;
   justify-content: center;
   font-size: 130px;
@@ -71,7 +75,7 @@ export const Projects = styled.div`
   align-items: center;
 
   @media all and (max-width: 1000px) {
-    margin: auto;
+    margin: 30px auto;
   }
 
   @media all and (max-width: 586px) {

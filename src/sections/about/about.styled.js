@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
+export const Container = styled.section`
 	width: 100%;
 	flex: 3;
 	display: flex;
@@ -70,6 +70,12 @@ export const Description = styled.p`
   padding-top: 0;
   font-weight: 600;
 	text-align: justify;
+	marging: 5px;
+
+	strong {
+    color: #FA834E; 
+    font-weight: bold;
+  }
 `;
 
 export const Undraw = styled.img`

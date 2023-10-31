@@ -14,4 +14,10 @@ export const SkillText = styled.p`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
+  @media all and (max-width: 754px) {
+    max-width: 662px;
+    min-width: 300px;
+    padding: 0 15px 0 15px;
+  }
 `;

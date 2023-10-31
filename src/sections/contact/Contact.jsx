@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Title, Subtitle, Form, Label, Input, Textarea, Button, Toast } from './contact.styled';
+import { Container, Title, Subtitle, Form, Label, Input, Textarea, Button, Paragraph, Toast } from './contact.styled';
 
 import emailjs from '@emailjs/browser';
 
@@ -58,7 +58,7 @@ const Contact = () => {
 				<Textarea id="messageField" name="message" value={message} onChange={e => setMessage(e.target.value)} required/>
 
 				<Button type="submit">Envoyer</Button>
-				<p>* Vos données sont confidentielles et ne seront pas conservées.</p>
+				<Paragraph>* Vos données sont confidentielles et ne seront pas conservées.</Paragraph>
 			</Form>
 			{showToast && (
     		<Toast>Message envoyé avec succès !</Toast>
