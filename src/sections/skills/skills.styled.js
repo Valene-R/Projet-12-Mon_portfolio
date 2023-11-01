@@ -8,7 +8,7 @@ export const Root = styled.section`
   align-items: center;
   background-size: cover;
   background-position: center;
-  height: 1100px;
+  height: 100%;
   width: calc(100% - 290px); /* déduit la largeur de la sidebar */
   position: relative;
   margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */

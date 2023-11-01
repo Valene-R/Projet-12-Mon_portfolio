@@ -8,7 +8,7 @@ export const Container = styled.section`
 	align-items: center;
 	justify-content: center;
 	background-color: #FFFFFF;
-	height: 100vh;
+	height: 100%;
 	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
 	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
@@ -71,6 +71,11 @@ export const Description = styled.p`
   font-weight: 600;
 	text-align: justify;
 	marging: 5px;
+	text-indent: 20px; // Retrait 
+
+	span {
+		margin-left: 20px;
+	}
 
 	strong {
     color: #FA834E; 
