@@ -7,7 +7,7 @@ import Skill from './skill/Skill';
 import JavaScriptIcon from '../skills/iconsTechno/JavaScriptIcon';
 import ReactIcon from '../skills/iconsTechno/ReactIcon';
 import ReduxIcon from '../skills/iconsTechno/ReduxIcon';
-import SaasIcon from '../skills/iconsTechno/SaasIcon';
+import SassIcon from '../skills/iconsTechno/SassIcon';
 import JestIcon from '../skills/iconsTechno/JestIcon';
 import GitIcon from '../skills/iconsTechno/GitIcon';
 
@@ -15,7 +15,7 @@ const iconMapping = {
   "JavaScriptIcon": JavaScriptIcon,
   "ReactIcon": ReactIcon,
   "ReduxIcon": ReduxIcon,
-  "SaasIcon": SaasIcon,
+  "SassIcon": SassIcon,
   "JestIcon": JestIcon,
   "GitIcon": GitIcon,
 };

@@ -34,7 +34,8 @@ export const Title = styled.h1`
 	margin: 0;
 
 	@media all and (max-width: 1000px) {
-		font-size: 90px; 
+		font-size: 90px;
+		margin-top: 40px; 
 	}
 
 	@media all and (max-width: 914px) {
@@ -81,6 +82,12 @@ export const Description = styled.p`
     color: #FA834E; 
     font-weight: bold;
   }
+
+	@media all and (max-width: 700px) {
+		width: 80%;
+    padding-left: 0;
+		margin: auto;
+	}
 `;
 
 export const Undraw = styled.img`

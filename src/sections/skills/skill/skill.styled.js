@@ -11,14 +11,12 @@ export const Root = styled.div`
 export const SkillText = styled.p`
   font-size: 16px;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 0 15px 0 15px;
+  text-align: center;
   
   @media all and (max-width: 754px) {
     max-width: 662px;
     min-width: 300px;
-    padding: 0 15px 0 15px;
     margin: auto;
   }
 `;

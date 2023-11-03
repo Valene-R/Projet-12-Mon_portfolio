@@ -21,29 +21,29 @@
     "description": "Bibliothèque React pour gérer l'état global de l'application"
   },
   {
-    "id": "saas",
-    "icon": "SaasIcon",
+    "id": "sass",
+    "icon": "SassIcon",
     "color": "#df62c4",
-    "name": "Saas",
+    "name": "Sass",
     "description": "Préprocesseur pour ajouter des fonctionnalités à CSS"
   },
   {
     "id": "styled-components",
     "icon": "assets/images/styledComponents.png",
-    "name": "Styled-Components",
-    "description": "Bibliothèque pour le styling"
+    "name": "Styled-components",
+    "description": "Bibliothèque React pour le styling"
   },
   {
     "id": "git",
     "icon": "GitIcon",
     "name": "Git",
-    "description": "Méthodologie de travail"
+    "description": "Méthodologie de travail pour suivre les modifications du code"
   },
   {
     "id": "git-flow",
     "icon": "assets/images/gitFlow.png",
     "name": "Git Flow",
-    "description": "Méthodologie de travail avec Git"
+    "description": "Convention de branches et méthodologie de travail avec Git"
   },
   {
     "id": "jest",

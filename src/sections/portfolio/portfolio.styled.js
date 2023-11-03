@@ -15,7 +15,6 @@ export const Description = styled.div`
   position: relative;
   margin-left: 290px;
   min-width: 350px;
-  max-width: 1154px;
   margin-bottom: 35px;
 
   @media all and (max-width: 1000px) {
@@ -246,27 +245,27 @@ export const DetailedModal = styled(Modal)`
     padding: 16px;  
     border-radius: 4px; 
   
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
 
-  &::-webkit-scrollbar {
-    width: 8px;
-  }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
 
-  &::-webkit-scrollbar-track {
-    background: transparent;
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(155, 155, 155, 0.7);
+      border-radius: 20px;
+      border: 3px solid transparent;
+    }
   }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(155, 155, 155, 0.7);
-    border-radius: 20px;
-    border: 3px solid transparent;
-  }
-}
 
   img {
     display: block;
     margin: 0 auto;
     max-width: 350px;
     margin-bottom: 10px;
+  }
 
   @media all and (max-width: 490px) {
     width: 250px;
@@ -277,13 +276,15 @@ export const Button = styled.button`
   display: flex;
   cursor: pointer;
   border-radius: 8px;
-  border: 2px solid;
+  border: none;
   height: 25px;
   width: 120px;
   font-size: 14px;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
+  background-color: #000;
+  color: #FFF; 
         
   &:hover {
     transform: scale(1.2); 

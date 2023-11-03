@@ -44,9 +44,10 @@ export const ProfileImage = styled.img`
 
 export const MediaIcons = styled.div`
   display: flex;
-  padding-top: 200px;
   padding-bottom: 50px;
   gap: 15px;
+  margin-top: auto;
+  justify-content: center;
    
   @media all and (max-width: 1000px) {
     display: flex;
@@ -54,6 +55,9 @@ export const MediaIcons = styled.div`
     position: relative;
     top: -75px;
     right: 0px;
+    padding-top: 200px;
+    margin-top: unset;
+    justify-content: end;
   }
 
   svg {
@@ -67,3 +71,8 @@ export const MediaIcons = styled.div`
   }
 `;
 
+export const Display = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+`;
