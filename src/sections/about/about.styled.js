@@ -94,3 +94,7 @@ export const Undraw = styled.img`
 	width: 400px;  
   height: auto; 
 `;
+
+export const BoldText = styled.span`
+  font-weight: bold;
+`;

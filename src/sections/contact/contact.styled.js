@@ -139,7 +139,7 @@ export const Toast = styled.div`
 	z-index: 1000;   
 	padding: 20px;
 	background-color: #74C188;
-	border: 1px solid #000;
+	border: none;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
 	border-radius: 8px;
 	width: 300px;

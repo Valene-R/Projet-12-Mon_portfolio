@@ -25,7 +25,7 @@
     "icon": "SassIcon",
     "color": "#df62c4",
     "name": "Sass",
-    "description": "Préprocesseur pour ajouter des fonctionnalités à CSS"
+    "description": "Préprocesseur pour ajouter des fonctionnalités au CSS"
   },
   {
     "id": "styled-components",

@@ -266,10 +266,6 @@ export const DetailedModal = styled(Modal)`
     max-width: 350px;
     margin-bottom: 10px;
   }
-
-  @media all and (max-width: 490px) {
-    width: 250px;
-  }
 `;
 
 export const Button = styled.button`
