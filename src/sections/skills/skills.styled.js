@@ -2,22 +2,22 @@ import styled from 'styled-components';
 
 
 export const Root = styled.section`
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-size: cover;
   background-position: center;
-  height: 1100px;
+  height: 100%;
   width: calc(100% - 290px); /* déduit la largeur de la sidebar */
   position: relative;
   margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
   min-width: 350px;
-  max-width: 1154px;
+  margin-top: 40px;
 
   @media all and (max-width: 1000px) {
     margin: auto;
     width: 100%;
+    margin-top: 40px;
   }
 `;
 

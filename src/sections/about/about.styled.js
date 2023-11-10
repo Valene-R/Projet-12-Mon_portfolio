@@ -8,7 +8,7 @@ export const Container = styled.section`
 	align-items: center;
 	justify-content: center;
 	background-color: #FFFFFF;
-	height: 100vh;
+	height: 100%;
 	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
 	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
@@ -34,7 +34,8 @@ export const Title = styled.h1`
 	margin: 0;
 
 	@media all and (max-width: 1000px) {
-		font-size: 90px; 
+		font-size: 90px;
+		margin-top: 40px; 
 	}
 
 	@media all and (max-width: 914px) {
@@ -71,14 +72,29 @@ export const Description = styled.p`
   font-weight: 600;
 	text-align: justify;
 	marging: 5px;
+	text-indent: 20px; // Retrait 
+
+	span {
+		margin-left: 20px;
+	}
 
 	strong {
     color: #FA834E; 
     font-weight: bold;
   }
+
+	@media all and (max-width: 700px) {
+		width: 80%;
+    padding-left: 0;
+		margin: auto;
+	}
 `;
 
 export const Undraw = styled.img`
 	width: 400px;  
   height: auto; 
+`;
+
+export const BoldText = styled.span`
+  font-weight: bold;
 `;

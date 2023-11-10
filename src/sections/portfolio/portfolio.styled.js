@@ -15,7 +15,6 @@ export const Description = styled.div`
   position: relative;
   margin-left: 290px;
   min-width: 350px;
-  max-width: 1154px;
   margin-bottom: 35px;
 
   @media all and (max-width: 1000px) {
@@ -137,11 +136,23 @@ export const Modal = styled.div`
   div {
 		position: relative;  
     background: #F3EDE9;
-    padding: 1rem;
-    width: 80%;
+    padding: 16px;
+    width: 90%;
     max-width: 500px;
     border-radius: 8px;
 		border-color: 2px solid #FA834E;
+
+    @media all and (max-width: 600px) {
+      width: 85%;
+      padding: 8px;
+    }
+
+    // Pour le scroll en version mobile
+    @media (max-width: 768px) { 
+      max-height: 80vh !important; 
+      overflow-y: auto !important;
+      display: flow;
+    }
   }
 `;
 
@@ -163,6 +174,14 @@ export const CloseButton = styled.span`
   font-size: 40px;
   font-weight: bold;
   color: #333;
+
+  @media (max-width: 768px) { 
+    font-size: 30px;
+    top: 0;
+  }
+  @media all and (max-width: 450px) {
+    font-size: 25px;
+  }
 `;
 
 export const ProjectLink = styled.a`
@@ -181,7 +200,7 @@ export const ProjectLink = styled.a`
   }
 `;
 
-export const GithubIcon = styled.img`
+export const Icon = styled.img`
   width: 24px;  
   height: 24px;
   transition: transform 0.3s ease;
@@ -189,15 +208,22 @@ export const GithubIcon = styled.img`
   &:hover {
     transform: scale(1.2);
   }
+
+  @media all and (max-width: 540px) {
+    width: 52px;
+  }
 `;
 
-export const PlayIcon = styled.img`
-  width: 24px;  
-  height: 24px;
+export const LinkP = styled.p`
+  font-size: 12px;
   transition: transform 0.3s ease;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+  }
+
+  @media all and (max-width: 540px) {
+    font-size: 14px;
   }
 `;
 
@@ -205,4 +231,69 @@ export const IconContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 30px;
+
+  @media all and (max-width: 540px) {
+    flex-direction: column;
+  }
 `;
+
+export const DetailedModal = styled(Modal)`
+  div {
+    max-width: 800px;
+    max-height: 80vh;  
+    overflow-y: auto;  
+    padding: 16px;  
+    border-radius: 4px; 
+  
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(155, 155, 155, 0.7);
+      border-radius: 20px;
+      border: 3px solid transparent;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    margin-bottom: 10px;
+  }
+`;
+
+export const Button = styled.button`
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  height: 25px;
+  width: 120px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  background-color: #000;
+  color: #FFF; 
+        
+  &:hover {
+    transform: scale(1.2); 
+    background-color: #FA834E;
+  }
+`;
+
+export const ContainerBtn = styled.div`
+  display: flex !important;
+  justify-content: center;
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translateX(-50%);
+`;
+

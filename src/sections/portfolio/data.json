@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "description": "Créer la page d'accueil d'une agence de voyage avec HTML et CSS",
+      "imageUrl": "assets/images/booki.png",
+      "picture": "assets/images/photoBooki.png",
+      "context": "J'ai débuté mon alternance en tant que développeuse web au sein de la start-up Booki, une agence de voyage. L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Je suis chargée d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, j'ai travaillé en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer.",
+      "tasks": [
+        "Intégration des maquettes desktop, tablette et mobile.",
+        "Respect des spécifications et contraintes techniques fournies.",
+        "Complétion de la base du code HTML et CSS fournie."
+      ],
+      "challenges": [
+        "Problème avec le positionnement relatif et absolu.",
+        "Soucis avec les mesures en pixels et non en mesures relatives."
+      ],
+      "solutions": [
+        "Opté pour des techniques modernes de CSS pour le positionnement.",
+        "Adopté des unités relatives pour une meilleure adaptabilité sur différents appareils."
+      ],
+      "githubLink": "https://github.com/Valene-R/Projet-3-Booki.git",
+      "liveDemoLink": "https://valene-r.github.io/Projet-3-Booki/",
+      "technologies": ["HTML5", "CSS3", "Figma", "Git", "GitHub"]
+    },
+    {
+      "id": 2,
+      "title": "Ohmyfood",
+      "description": "Améliorer l'interface d'un site mobile avec des animations CSS",
+      "imageUrl": "assets/images/ohmyfood.png",
+      "picture": "assets/images/photoOhmyfood.png",
+      "context": "J'ai intégré Ohmyfood en tant que développeuse junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood.",
+      "tasks": [
+        "Développement du site “mobile first” répertoriant les menus de restaurants gastronomiques.",
+        "Intégration des maquettes mobile, tablette et desktop.",
+        "Réalisation d'un système permettant aux clients de composer leur menu."
+      ],
+      "challenges": [
+        "Intégration d'animations comme celle du cœur et le sélecteur de plat.",
+        "Conception d'un loader adapté pour la page d'accueil du site en respectant la charte graphique du site.",
+        "Mise en œuvre d'une approche de développement en “mobile first” pour répondre aux besoins modernes des utilisateurs."
+      ],
+      "solutions": [
+        "Adoption d'une approche rigoureuse basée sur les maquettes fournies et le brief créatif, tout en collaborant étroitement avec l'équipe de conception.",
+        "Utilisation des media queries avec `min-width` pour adopter une approche “mobile first” et garantir la responsivité du site.",
+        "Utilisation des keyframes CSS et de la propriété `transform` combinée à des transitions pour réaliser des animations fluides et dynamiques.",
+        "Exploitation des ressources et brief créatif pour organiser le travail de développement et aborder l'animation, le responsive design et l'utilisation de Sass."
+      ],
+      "githubLink": "https://github.com/Valene-R/Projet-4-Ohmyfood.git",
+      "liveDemoLink": "https://valene-r.github.io/Projet-4-Ohmyfood/",
+      "technologies": ["HTML5", "Sass", "Git", "GitHub"]
+    },
+    {
+    	"id": 3,
+      "title": "Portfolio de l'architecte Sophie Bluel",
+      "description": "Créer une page dynamique avec JavaScript",
+      "imageUrl": "assets/images/sophieBluel.png",
+      "picture": "assets/images/photoSophieBluel.png",
+      "context": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. J'ai été envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.",
+      "tasks": [
+        "Intégration précise du design à partir des maquettes Figma fournies.",
+        "Développer la page de présentation des travaux de l'architecte à partir du HTML fourni.",
+        "Créer la page de connexion de l'administrateur du site.",
+        "Concevoir la modale permettant d'uploader de nouveaux médias."
+      ],
+      "challenges": [
+        "Filtrer et afficher efficacement les projets dans la galerie.",
+        "Mettre en place un système robuste de connexion pour les utilisateurs.",
+        "Faciliter l'ajout de travaux à la galerie sans compromettre la sécurité ou la performance du site."
+      ],
+      "solutions": [
+        "Collaboration étroite avec l'équipe pour clarifier les spécifications et assurer une intégration réussie.",
+        "Développement d'un système de filtrage avancé pour la galerie, permettant un affichage personnalisé.",
+        "Implémentation d'un système de connexion sécurisé, distinguant clairement les utilisateurs connectés des non connectés.",
+        "Mise en place d'une interface intuitive pour l'ajout de travaux, tout en assurant la sécurité lors de l'envoi d'images à l'API."
+      ],
+      "githubLink": "https://github.com/Valene-R/Projet-6-Portfolio_architecte_Sophie_Bluel.git",
+      "technologies": ["HTML5", "JavaScript", "Sass", "NodeJS", "Figma", "Kanban Notion", "Swagger"]
+      },
+		{
+			"id": 4,
+			"title": "Site du photographe Nina Carducci",
+			"description": "Optimiser le référencement d'un site de photographe",
+			"imageUrl": "assets/images/ninaCarducci.png",
+      "picture": "assets/images/photoNinaCarducci.png",
+      "context": "Je suis développeuse freelance cherchant à élargir ma clientèle en proposant mes services d'optimisation SEO. J'ai analysé le site de Nina CarducciLe, une photographe renommée, qui a besoin d'une optimisation pour améliorer sa visibilité en ligne et attirer plus de visiteurs.",
+      "tasks": [
+        "Analyser le site actuel pour identifier les problèmes liés au SEO.",
+        "Optimiser le code source pour un meilleur chargement et une meilleure accessibilité.",
+        "Mettre en place le référencement local en utilisant Schema.org.",
+        "Ajouter les metas pour les réseaux sociaux.",
+        "Produire un rapport d’optimisation présentant toutes mes actions et leur impact."
+      ],
+      "challenges": [
+        "Le site a de nombreuses images haute résolution qui ralentissent le temps de chargement.",
+        "Certains éléments du site ne sont pas conformes aux normes d'accessibilité.",
+        "Les méta-données et les balises nécessaires pour un bon référencement sont manquantes ou incorrectement configurées."
+      ],
+      "solutions": [
+        "Audit approfondi du site via Lighthouse et Wave, permettant d'identifier les domaines d'amélioration et d'apporter des correctifs appropriés.",
+        "Mise en place de Schema.org pour un référencement local efficace, assurant une meilleure visibilité dans les recherches locales.",
+        "Intégration des meta-tags spécifiques pour une meilleure présentation du site lors du partage sur les réseaux sociaux.",
+        "Adoption des meilleures pratiques en matière d'accessibilité, garantissant que le site est utilisable par tous les visiteurs, quelles que soient leurs capacités.",
+        "Compilation d'un rapport exhaustif sur l'optimisation, incluant les audits avant/après et une liste détaillée des modifications apportées."
+      ],
+			"githubLink": "https://github.com/Valene-R/Projet-9-Site_photographe_Nina_Carducci.git",
+			"liveDemoLink": "https://valene-r.github.io/Projet-9-Site_photographe_Nina_Carducci/",
+      "pdfLink": "https://drive.google.com/file/d/1lzOJuF8rOF8_MDNmuEBB73OWqah91jA3/view?usp=sharing",
+			"technologies": ["HTML5", "JavaScript", "Sass", "Git Flow", "GitHub", "Lighthouse", "Wave Evaluation Tool", "Google Rich Snippets", "Schema.org"]
+		},
+    {
+			"id": 5,
+			"title": "Kasa",
+			"description": "Créer une application web de location immobilière avec React",
+			"imageUrl": "assets/images/kasa.png",
+      "picture": "assets/images/photoKasa.png",
+      "context": "Kasa, leader de la location d’appartements entre particuliers en France, m'a recrutée en tant que développeuse front-end freelance pour travailler sur la refonte de leur plateforme. Le site original, codé il y a plus de 10 ans en ASP.NET, devait être repensé en utilisant une stack moderne basée sur NodeJS et React. Le recrutement du développeur back-end est toujours en cours.",
+      "tasks": [
+        "Démarrer le projet React et développer l’ensemble de l’application.",
+        "Créer les composants React en suivant les maquettes Figma.",
+        "Configurer les routes React Router.",
+        "Respecter les outils et contraintes techniques de Kasa."
+      ],
+      "challenges": [
+        "Développement du front-end sans back-end en place.",
+        "Intégration fidèle des maquettes Figma dans une logique de composants.",
+        "Gestion de la galerie d'images avec des fonctionnalités spécifiques.",
+        "Intégration d'animations pour les menus déroulants."
+      ],
+      "solutions": [
+        "Mise en place d'une étroite collaboration avec le designer pour assurer une transition fluide des maquettes Figma vers React.",
+        "Développement d'une API mock avec des données statiques pour simuler le back-end en attendant sa mise en place.",
+        "Optimisation de l'expérience utilisateur en ajoutant des animations fluides et des feedbacks visuels pour tous les composants interactifs, notamment les menus déroulants.",
+        "Utilisation du hook useState de React pour gérer dynamiquement les états des composants et réagir aux interactions de l'utilisateur.",
+        "Implémentation de React Router pour gérer la navigation et les paramètres d'URL, garantissant une expérience utilisateur cohérente et structurée.",
+        "Mise en œuvre d'une approche modulaire avec des composants React distincts pour gérer l'état et les événements, assurant une plus grande flexibilité et une meilleure organisation du code."
+      ],
+			"githubLink": "https://github.com/Valene-R/Projet-8-Kasa.git",
+			"liveDemoLink": "https://projet-8-kasa-idy5-valene-r.vercel.app/",
+			"technologies": ["HTML5", "Sass", "Figma", "React", "Git Flow", "GitHUb"]
+		}
+]

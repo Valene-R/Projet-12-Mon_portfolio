@@ -7,7 +7,6 @@ export const Container = styled.section`
 	align-items: center;
 	justify-content: center;
 	background-color: #FFFFFF;
-	height: 100vh;
 	width: calc(100% - 290px); /* déduit la largeur de la sidebar */
 	position: relative;
 	margin-left: 290px; /* déplace le contenu à droite pour laisser de la place à la sidebar */
@@ -36,6 +35,10 @@ export const Title = styled.h2`
 
 	@media all and (max-width: 1303px) {
 		font-size: 100px;  
+	}
+
+	@media all and (max-width: 1000px) { 
+		margin-top: 40px;
 	}
 
 	@media all and (max-width: 1070px) {
@@ -136,7 +139,7 @@ export const Toast = styled.div`
 	z-index: 1000;   
 	padding: 20px;
 	background-color: #74C188;
-	border: 1px solid #000;
+	border: none;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
 	border-radius: 8px;
 	width: 300px;

@@ -1,42 +1,56 @@
 [
   {
+    "id": "JavaScript",
+    "icon": "JavaScriptIcon",
+    "color": "#EEDC11",
+    "name": "JavaScript",
+    "description": "Langage de programmation permettant d'ajouter des interactions dynamiques sur les sites web"
+  },
+  {
     "id": "react",
     "icon": "ReactIcon",
     "color": "#61DAFB",
-    "description": "React - Bibliothèque JavaScript pour construire des interfaces utilisateur"
+    "name": "React",
+    "description": "Bibliothèque JavaScript pour construire des interfaces utilisateur"
   },
   {
     "id": "redux",
     "icon": "ReduxIcon",
     "color": "#764ABC",
-    "description": "Redux - Bibliothèque React pour gérer l'état global de l'application"
+    "name": "Redux",
+    "description": "Bibliothèque React pour gérer l'état global de l'application"
   },
   {
-    "id": "saas",
-    "icon": "SaasIcon",
+    "id": "sass",
+    "icon": "SassIcon",
     "color": "#df62c4",
-    "description": "Saas - Préprocesseur pour ajouter des fonctionnalités à CSS"
+    "name": "Sass",
+    "description": "Préprocesseur pour ajouter des fonctionnalités au CSS"
   },
   {
     "id": "styled-components",
     "icon": "assets/images/styledComponents.png",
-    "description": "Styled-Components - Bibliothèque pour le styling"
+    "name": "Styled-components",
+    "description": "Bibliothèque React pour le styling"
   },
   {
     "id": "git",
     "icon": "GitIcon",
-    "description": "Git - Méthodologie de travail"
+    "name": "Git",
+    "description": "Méthodologie de travail pour suivre les modifications du code"
   },
   {
     "id": "git-flow",
     "icon": "assets/images/gitFlow.png",
-    "description": "Git Flow - Méthodologie de travail avec Git"
+    "name": "Git Flow",
+    "description": "Convention de branches et méthodologie de travail avec Git"
   },
   {
     "id": "jest",
     "icon": "JestIcon",
     "color": "#99425B",
-    "description": "Jest - Bibliothèque de tests pour JavaScript"
+    "name": "Jest",
+    "description": "Bibliothèque de tests pour JavaScript"
   }
 ]
 
