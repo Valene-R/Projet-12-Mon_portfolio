@@ -47,7 +47,6 @@
         "Exploitation des ressources et brief créatif pour organiser le travail de développement et aborder l'animation, le responsive design et l'utilisation de Sass."
       ],
       "githubLink": "https://github.com/Valene-R/Projet-4-Ohmyfood.git",
-      "liveDemoLink": "https://valene-r.github.io/Projet-4-Ohmyfood/",
       "technologies": ["HTML5", "Sass", "Git", "GitHub"]
     },
     {
@@ -83,7 +82,7 @@
 			"description": "Optimiser le référencement d'un site de photographe",
 			"imageUrl": "assets/images/ninaCarducci.png",
       "picture": "assets/images/photoNinaCarducci.png",
-      "context": "Je suis développeuse freelance cherchant à élargir ma clientèle en proposant mes services d'optimisation SEO. J'ai analysé le site de Nina CarducciLe, une photographe renommée, qui a besoin d'une optimisation pour améliorer sa visibilité en ligne et attirer plus de visiteurs.",
+      "context": "Je suis développeuse freelance cherchant à élargir ma clientèle en proposant mes services d'optimisation SEO. J'ai analysé le site de Nina Carducci, une photographe renommée, qui a besoin d'une optimisation pour améliorer sa visibilité en ligne et attirer plus de visiteurs.",
       "tasks": [
         "Analyser le site actuel pour identifier les problèmes liés au SEO.",
         "Optimiser le code source pour un meilleur chargement et une meilleure accessibilité.",
@@ -137,6 +136,6 @@
       ],
 			"githubLink": "https://github.com/Valene-R/Projet-8-Kasa.git",
 			"liveDemoLink": "https://projet-8-kasa-idy5-valene-r.vercel.app/",
-			"technologies": ["HTML5", "Sass", "Figma", "React", "Git Flow", "GitHUb"]
+			"technologies": ["HTML5", "Sass", "Figma", "React", "Git Flow", "GitHub"]
 		}
 ]

@@ -26,6 +26,7 @@ const Portfolio = () => {
         <Title>Portfolio</Title>
         <Subtitle>Traversée créative : chaque projet, une histoire unique à raconter</Subtitle>
       </Description>
+
       <Projects>
         {projectsData.map(project => (
           <Card key={project.id} onClick={() => openModal(project)}>
@@ -34,19 +35,21 @@ const Portfolio = () => {
           </Card>
         ))}
       </Projects>
+
       {selectedProject && (
 				<Modal $show={!!selectedProject} onClick={closeModal}>
 					<div onClick={e => e.stopPropagation()}> 
       			<CloseButton onClick={closeModal}>x</CloseButton>
 						<h2>{selectedProject.title}</h2>
 						<p>{selectedProject.description}</p>
+
 						<IconContainer>
-              <ProjectLink href={selectedProject.githubLink}>
+              <ProjectLink href={selectedProject.githubLink} target="_blank">
                 <Icon src={iconGithub} alt="Voir sur GitHub" />
                 <LinkP>voir le repo sur GitHub</LinkP>
               </ProjectLink>
               {selectedProject.liveDemoLink && (
-                <ProjectLink href={selectedProject.liveDemoLink}>
+                <ProjectLink href={selectedProject.liveDemoLink} target="_blank">
                   <Icon src={iconPlay} alt="Voir le site" />
                   <LinkP>voir le site</LinkP>
                 </ProjectLink>
@@ -58,6 +61,7 @@ const Portfolio = () => {
                 </ProjectLink>
               )}
             </IconContainer>
+
 						<h3>Technologies utilisées :</h3>
 						<TechList>
 							{selectedProject.technologies.map(tech => (
@@ -70,6 +74,7 @@ const Portfolio = () => {
 					</div>
 				</Modal>
       )}
+      
       {showDetailedModal && ( // Nouvelle modale détaillée
         <DetailedModal $show={!!showDetailedModal} onClick={closeModal}>
           <div onClick={e => e.stopPropagation()}>

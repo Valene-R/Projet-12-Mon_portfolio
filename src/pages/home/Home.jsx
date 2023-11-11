@@ -6,11 +6,12 @@ import Portfolio from '../../sections/portfolio/Portfolio';
 import Contact from '../../sections/contact/Contact';
 import Skills from '../../sections/skills/Skills';
 import Experience from '../../sections/experience/Experience';
+import Footer from '../../components/footer/Footer';
 
 
 const Home = () => {
   return (
-    <div>
+    <>
       <SideBar />
       <HeroSection />
       <About />
@@ -18,7 +19,8 @@ const Home = () => {
       <Portfolio />
       <Experience />
       <Contact />
-    </div>
+      <Footer />
+    </>
   );
 };
 

@@ -23,6 +23,7 @@ export const Root = styled.div`
     padding: 0 10px;  
     font-size: 12px;
     justify-content: space-between;
+    z-index: 900;
 
     h2 {
       padding-left: 42px;

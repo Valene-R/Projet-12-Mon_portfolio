@@ -21,7 +21,7 @@ const About = () => {
         <Description>
           Au cours de mes études, j'ai eu l'opportunité de me familiariser avec divers outils technologiques. J'ai notamment développé des compétences en <strong>JavaScript</strong>, <strong>React</strong> et d'<strong>autres technologies front-end</strong>. 
           <br /><br />
-          <span>Pour en savoir plus sur l'étendue de <strong>mes connaissances techniques</strong>, je vous invite à explorer la section Compétences.</span>
+          <span>Pour en savoir plus sur l'étendue de <strong>mes connaissances techniques</strong>, je vous invite à explorer la section compétences.</span>
         </Description>
       </div>
     </Container>

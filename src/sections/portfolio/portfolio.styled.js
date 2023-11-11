@@ -243,7 +243,9 @@ export const DetailedModal = styled(Modal)`
     max-height: 80vh;  
     overflow-y: auto;  
     padding: 16px;  
+    padding-right: 8px;
     border-radius: 4px; 
+    z-index: 9999;
   
     &::-webkit-scrollbar {
       width: 8px;
@@ -265,6 +267,14 @@ export const DetailedModal = styled(Modal)`
     margin: 0 auto;
     max-width: 350px;
     margin-bottom: 10px;
+
+    @media all and (max-width: 475px) {
+      max-width: 300px;
+    }
+
+    @media all and (max-width: 415px) {
+      max-width: 250px;
+    }
   }
 `;
 
@@ -296,4 +306,3 @@ export const ContainerBtn = styled.div`
   left: 50%;
   transform: translateX(-50%);
 `;
-
